@@ -18,7 +18,7 @@ config.font = wezterm.font("FiraCode Nerd Font Mono", {
 })
 config.font_size = 10.0
 
-window_decorations = "RESIZE"
+-- config.window_decorations = "RESIZE"
 
 config.window_frame = {
   border_left_width = '0.25cell',
