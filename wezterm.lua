@@ -18,6 +18,19 @@ config.font = wezterm.font("FiraCode Nerd Font Mono", {
 })
 config.font_size = 10.0
 
+window_decorations = "RESIZE"
+
+config.window_frame = {
+  border_left_width = '0.25cell',
+  border_right_width = '0.25cell',
+  border_bottom_height = '0.15cell',
+  border_top_height = '0.15cell',
+  border_left_color = '#75507B',
+  border_top_color = '#75507B',
+  border_bottom_color = '#75507B',
+  border_right_color = '#75507B',
+}
+
 -- config.keys = {
 -- 	{
 -- 		key = "h",
